@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babysitting Services</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="landing page.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="bg-primary text-white text-center py-5">
+    <h1>Welcome to Tiny Tikes Babysitting</h1>
+    <p>Your Family-Trusted Babysitting Service</p>
+</header>
+
+<!-- Main Content -->
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>We provide professional and reliable babysitting services for families in need. Our team of experienced caregivers ensures the safety and well-being of your children while you're away.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="https://images.pexels.com/photos/1648363/pexels-photo-1648363.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Babysitter" class="img-fluid rounded-circle">
+        </div>
+    </div>
+</section>
+</section class ='about'>
+    <div class="row align-items-center">
+        <h2>About Us</h2>
+        <div class="col-md-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxGQpUiHTPT8lsYaaLL3vmk8G7yaILnQxaCA&usqp=CAU"
+            alt="Headshot of woman" class=""img-fluid">
+        </div>
+        <div class=""col-md-8"
+            <p> Hi there! My name is Marie Tinker and I have been working in childcare for 25 years now. I graduated from the University of Maryland with an early education major and decided I wanted to open up my own preschool. After realizing dealing with the difficulites COVID-19 brought on my facility, I unfortunately had to shut down 3 years ago. Since then, I'm built up my buisness to become one of the top rated babysitting agencies in MD according to the Eagle Gazette! I look forward to getting to know you and your tiny tikes very soon!  
+            </p>
+
+<!-- Contact Us -->
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or need our services, please don't hesitate to get in touch. We're here to help!</p>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Tiny Tikes Babysitting</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

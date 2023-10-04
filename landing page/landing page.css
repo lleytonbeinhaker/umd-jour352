@@ -1,0 +1,69 @@
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: #FF5733;
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+header,
+section {
+    margin: 2em 0;
+}
+
+header,
+.top,
+.menu,
+.walkers {
+    text-align: center;
+}
+
+/* Top Image Margin */
+.top img {
+    padding: 0 0 2em 0;
+}
+
+/* Navigation Links */
+.nav-link {
+    color: #FF5733;
+}
+
+.nav-link:hover {
+    color: #007ACC;
+}
+
+/* Margin for Menu Images */
+.menu img {
+    margin: 1em 0;
+}
+
+/* Background and Padding for About Section */
+.about {
+    background: #F2F2F2;
+    padding: 1.5em;
+}
+
+/* Image Margin and Centering */
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+/* Margin for Walker Columns */
+.walkers .col-md-3 {
+    margin: 1em 0;
+}
