@@ -1,4 +1,5 @@
 body, h1, p {
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -23,7 +24,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 
 nav ul li a {
@@ -35,7 +36,7 @@ nav ul li a {
 main {
     text-align: center;
     padding: 50px 0;
-}
+      }
 
 .bio img {
     max-width: 50%;
@@ -46,9 +47,9 @@ main {
 }
 
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Lato', cursive;
     color:#FF6600; 
-    font-size: 36px;
+    font-size: 54px;
 }
 
 p {
@@ -60,8 +61,26 @@ footer {
     color: #FF6600;
     text-align: center;
     padding: 10px 0;
+    font-style: italic;
 }
 
 img {
     width: 300px
+}
+
+h2 {
+    font-size: 36px; 
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 28px;
+}
+h5{
+    font-size: 28px;
+}
+
+li{
+    font-size: 18px;
 }
