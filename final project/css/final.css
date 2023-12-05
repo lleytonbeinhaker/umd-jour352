@@ -1,11 +1,11 @@
-div{
+/*div{
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-}
+} */
 
 img {
-    max-width: 320px;
+    /*max-width: 600px;*/
     float: left;
     border: 3px solid #fff;
     border-radius: 10px;
@@ -13,9 +13,14 @@ img {
 }
 
 .wrapper{
-    margin: 150px auto;
-    width: 70%;
+    /*margin: 150px auto;*/
+    /*width: 70%; */
+    background-color: #645394;
+    margin: 0 0 15% 0;
+    padding: 8em 0;
 }
+
+/*
 
 .text-box h1{
     font-size: 50px;
@@ -24,43 +29,55 @@ img {
     text-align: right;
     background-color: #645394
 }
+*/
+
+main {
+    background-color: #645394;
+    padding: 1em 0;
+    text-align: center;
+}
 
 h1{
-    font-size: 50px;
+    font-size: 3em;
     font-weight: bold;
-    font-family: Didot, serif; 
+    font-family: Didot, serif;
     text-align: right;
-    background-color: #645394
+    background-color: #645394;
     }
+ 
 
 
 h2 {
     font-size: 40px;
     font-family: Didot, serif;
     text-align: center;
-    background-color: #6F4685
+    background-color: #875692;
+    padding: 2em 0;
 }
 
-h3 {
+.darkpurple{
     font-size: 40px;
     font-family: Didot, serif;
     text-align: center;
-    background-color: #CEA2FD
+    background-color: #6F4685;
 }
 
-h4{
+.lightpurple {
     font-size: 40px;
     font-family: Didot, serif;
     text-align: center;
-    background-color: #875692
+    background-color: #CEA2FD;
 }
 
-h5{
+.middlepurple {
     font-size: 40px;
     font-family: Didot, serif;
     text-align: center;
-    background-color: #6F4685
+    background-color: #524F8d;
 }
+
+
+
 
 
 
