@@ -1,17 +1,17 @@
+@media (min-height: 680px) {
 
-@media (max-width: 576px) {
 }
 
 img {
     margin-right: 15px;
 }
 
-.img-fluid-collage {
+.collage {
     border: 3px solid #fff;
     border-radius: 10px;
 }
 
-.img-fluid-roadmap {
+.roadmap {
     width: 1300px;
     margin-right: 15px;
     padding-bottom: 6em;
@@ -26,18 +26,18 @@ img {
     padding-top: 5em;
 }
  
-.img-fluid-singing {
+.singing {
     width: 800px;
     float: left;
     padding-top: 5em;
 }
 
-.img-fluid-sour {
+.sour {
     width: 700px;
     padding-top: 8em;
 }
 
-.img-fluid-twitter {
+.twitter {
     width: 800px;
     padding-bottom: 8em;
 }
@@ -47,13 +47,13 @@ img {
     padding-top: 8em;
 }
 
-.img-fluid-gif {
+.gif {
     width: 400px;
     float: right;
     padding-bottom: 8em;
 }
 
-.img-fluid-signature {
+.signature {
     width: 600px;
     float: right;
     padding-top: 5em;
